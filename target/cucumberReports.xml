@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="111.55" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Shop Module of asianpaints website" name="Viewing Details" time="15.807">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I select the Peel & Sticker Wallpapers category........................passed
+And I sort the stickers by price from low to high...........................passed
+Then it display stickers from low to high...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop Module of asianpaints website" name="Filtering by price" time="15.473">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I select Wall Stickers category........................................passed
+And I select price option...................................................passed
+Then it displays price filter option........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop Module of asianpaints website" name="Filtering by colours" time="21.044">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I select WallPapers category...........................................passed
+And I select colour.........................................................passed
+Then it display stickers based on the colour................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop Module of asianpaints website" name="Viewing product details" time="34.399">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I select DIY Tools.....................................................passed
+And I select product........................................................passed
+Then it displays the product details........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop Module of asianpaints website" name="Getting latest trending news - Example #1.1" time="12.582">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I enter email as "hima@gmail.com"......................................passed
+And I click on subscribe button.............................................passed
+Then I subscribed successfully..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop Module of asianpaints website" name="Getting latest trending news - Example #1.2" time="12.059">
+<system-out><![CDATA[
+Given I am on shop module...................................................passed
+When I enter email as "thanusha"............................................passed
+And I click on subscribe button.............................................passed
+Then I subscribed successfully..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
